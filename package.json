@@ -1,0 +1,15 @@
+{
+  "name": "bibeer",
+  "version": "1.0.1",
+  "description": "Tool for bitbucket repositories. Create new private repository base on other repository.",
+  "main": "index.js",
+  "author": "Marcin Kalota <marcin@parabolalab.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bitbucket-rest": "0.0.1",
+    "commander": "^2.14.0"
+  },
+  "bin": {
+    "bibeer": "./bin/bibeer"
+  }
+}
